@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="dashboard">
+        <h1> Visual Data Dashboard</h1>
+        <div id="filters">
+            <label for="end-year">End Year:</label>
+            <input type="number" id="end-year" name="end-year">
+            
+            <label for="topics">Topics:</label>
+            <select id="topics" name="topics">
+                <option value="topic1">Topic 1</option>
+                <option value="topic2">Topic 2</option>
+                <!-- Add more topics as needed -->
+            </select>
+            
+            <label for="sector">Sector:</label>
+            <select id="sector" name="sector">
+                <option value="sector1">Sector 1</option>
+                <option value="sector2">Sector 2</option>
+                <!-- Add more sectors as needed -->
+            </select>
+            
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="region1">Region 1</option>
+                <option value="region2">Region 2</option>
+                <!-- Add more regions as needed -->
+            </select>
+            
+            <label for="pest">PEST:</label>
+            <select id="pest" name="pest">
+                <option value="pest1">PEST 1</option>
+                <option value="pest2">PEST 2</option>
+                <!-- Add more PEST categories as needed -->
+            </select>
+            
+            <label for="source">Source:</label>
+            <select id="source" name="source">
+                <option value="source1">Source 1</option>
+                <option value="source2">Source 2</option>
+                <!-- Add more sources as needed -->
+            </select>
+            
+            <label for="swot">SWOT:</label>
+            <select id="swot" name="swot">
+                <option value="strength">Strength</option>
+                <option value="weakness">Weakness</option>
+                <option value="opportunity">Opportunity</option>
+                <option value="threat">Threat</option>
+            </select>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="country1">Country 1</option>
+                <option value="country2">Country 2</option>
+                <!-- Add more countries as needed -->
+            </select>
+            
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="city1">City 1</option>
+                <option value="city2">City 2</option>
+                <!-- Add more cities as needed -->
+            </select>
+        </div>
+        <div id="visualizations">
+            <!-- Visualization containers -->
+            <div id="intensity-chart"></div>
+            <div id="likelihood-chart"></div>
+            <div id="relevance-chart"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
